@@ -30,7 +30,7 @@ Goto generated alert and observe the following:
 - Reported information (policy violation action/description, violators username) is presented for analyzing the case
 - Recommendation from CloudSOC
 
-**Investigate Data Leakage Alert (Symantec CloudSOC)**: Launch the "Investigate Data Leakage Alert (Symantec CloudSOC)" playbook and observe various investigation activities such as
+**Investigate Data Leakage Alert (Symantec CloudSOC)**: Launch the `Investigate Data Leakage Alert (Symantec CloudSOC)` playbook and observe various investigation activities such as
 
 - Identify employee watchlist status of user involved in data leakage
 - Identify if the file involved is a sensitive document
@@ -41,7 +41,7 @@ Goto generated alert and observe the following:
 
 Ensure that the below solution packs are deployed:
 
-**Solution Pack**|**Purpose**|**Doc Link**|
+|**Solution Pack**|**Purpose**|**Doc Link**|
 | :- | :- | :- |
 |SOAR Framework 1.0.0|Require for Incident Response modules and Action playbooks|[Click here](https://github.com/fortinet-fortisoar/solution-pack-soar-framework/blob/develop/README.md)|
 |SOC Simulator 1.0.1|Require for Scenario Module and SOC Simulator connector| [Click here](https://github.com/fortinet-fortisoar/solution-pack-soc-simulator/blob/develop/README.md)|
@@ -68,12 +68,12 @@ Ensure that the below solution packs are deployed:
 4. Playbook Collection(s)
 
     - 02 - Use Case - Data Leakage Threat Response (3):
-        Following is a list of playbooks under “02 - Use Case - Data Leakage Threat Response”
+        Following is a list of playbooks under "02 - Use Case - Data Leakage Threat Response"
 
-    |**Playbook Name**|**Description**
+    |**Playbook Name**|**Description**|
     | :- | :- |
     |Generate > DLP Alert|Generates a DLP Demo Alert|
     |Generate - Symantec CloudSOC External Filesharing Alert|Create a single alert for  Symantec incidents|
     |Investigate Data Leakage Alert (Symantec CloudSOC)|Investigate data leakage alert  ingested from Symantec CloudSOC|
 
-    **Warning:** It is recommended to clone these Playbooks before any customizations to avoid loss of information while upgrading the Solution Pack.
+     **Warning:** It is recommended to clone these Playbooks before any customizations to avoid loss of information while upgrading the Solution Pack.
