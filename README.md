@@ -68,7 +68,7 @@ Ensure that the below solution packs are deployed:
 4. Playbook Collection(s)
 
     - 02 - Use Case - Data Leakage Threat Response (3):
-        Following is a list of playbooks under "02 - Use Case - Data Leakage Threat Response"
+
 
     |**Playbook Name**|**Description**|
     | :- | :- |
