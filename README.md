@@ -13,19 +13,21 @@
 
 *Data Leakage Threat Response Solution Pack* is designed to provide a set of investigation and utility playbooks to respond to data leakage.
 
-Configure Cloud Access Security Broker(CASB) connector such as Symantec CloudSOC to capture events of policy violation like 'External File Sharing'. It creates an alert of type 'Data Leakage', and then triggers a response workflow.
+Configure Cloud Access Security Broker(CASB) connector such as Symantec CloudSOC to capture events of policy violation like **External File Sharing**. It creates an alert of type **Data Leakage** and triggers a response workflow.
 
 Refer to Simulation Scenarios - Data Leakage to experience the use case without CASB configuration
 
 ### Usage
 
-This Solution Pack ships with the following simulation scenarios. [Refer](https://github.com/fortinet-fortisoar/solution-pack-soc-simulator/blob/develop/docs/solution-pack-guide.md) to Simulate Scenario documentation to understand how to Simulate and Reset Scenario.
+Refer to [Simulate Scenario documentation](https://github.com/fortinet-fortisoar/solution-pack-soc-simulator/blob/develop/docs/solution-pack-guide.md) to understand how to Simulate and Reset scenarios.
+
+This Solution Pack ships with the following simulation scenarios.
 
 #### 1. Scenario: Data Leakage
 
-The scenario generates a demo alert of Type 'Data Leakage'.
+The scenario generates a demo alert of the type **Data Leakage**.
 
-Goto generated alert and observe the following:
+Navigate to generated alert and observe the following:
 
 - Reported information (policy violation action/description, violators username) is presented for analyzing the case
 - Recommendation from CloudSOC
