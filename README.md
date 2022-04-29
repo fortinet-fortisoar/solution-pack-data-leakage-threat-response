@@ -1,5 +1,3 @@
-# Data Leakage Threat Response Solution Pack
-
 ## Release Information
 
 - Solution Pack Version: 1.0.0
@@ -13,9 +11,9 @@
 
 *Data Leakage Threat Response Solution Pack* is designed to provide a set of investigation and utility playbooks to respond to data leakage.
 
-Configure Cloud Access Security Broker(CASB) connector such as Symantec CloudSOC to capture events of policy violation like **External File Sharing**. It creates an alert of type **Data Leakage** and triggers a response workflow.
+Configure Cloud Access Security Broker(CASB) connector, such as Symantec CloudSOC, to capture events of policy violation like **External File Sharing**. It creates an alert of type **Data Leakage** and triggers a response workflow.
 
-Refer to Simulation Scenarios - Data Leakage to experience the use case without CASB configuration
+Refer to Simulation Scenario - Data Leakage to experience the use case without CASB configuration.
 
 ### Usage
 
@@ -23,21 +21,21 @@ Refer to [Simulate Scenario documentation](https://github.com/fortinet-fortisoar
 
 This Solution Pack ships with the following simulation scenarios.
 
-#### 1. Scenario: Data Leakage
+**Data Leakage**
 
 The scenario generates a demo alert of the type **Data Leakage**.
 
-Navigate to generated alert and observe the following:
+Navigate to the generated alert and observe the following:
 
-- Reported information (policy violation action/description, violators username) is presented for analyzing the case
-- Recommendation from CloudSOC
+- Reported information (policy violation action/description, violators username) is present for analyzing the case
+- Recommendations from CloudSOC
 
-**Investigate Data Leakage Alert (Symantec CloudSOC)**: Launch the `Investigate Data Leakage Alert (Symantec CloudSOC)` playbook and observe various investigation activities such as
+**Investigate Data Leakage Alert (Symantec CloudSOC)**: Launch the **Investigate Data Leakage Alert (Symantec CloudSOC)** playbook and observe various investigation activities such as
 
 - Identify employee watchlist status of user involved in data leakage
 - Identify if the file involved is a sensitive document
 - Initiate containment actions for sensitive document
-- Block the user in Microsoft Active Directory and using Symantec DLP investigate if the user involved in any other DLP(Data Leakage Policy) event
+- Block the user in Microsoft Active Directory and, using Symantec DLP, investigate if the user is involved in any other DLP(Data Leakage Policy) event
 
 ## Prerequisite
 
@@ -58,7 +56,7 @@ Ensure that the below solution packs are deployed:
     |2|Symantec CloudSOC|
     |3|Symantec DLP|
 
-    **Warning:** After deployment, this Solution Pack will install or upgrade the stated connectors list.
+    **Warning:** After deployment, this Solution Pack installs or upgrades the stated connectors list.
 
 2. Modules Schema(s)
     - Employee Watchlist
