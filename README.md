@@ -9,7 +9,7 @@
 
 ### Introduction
 
-*Data Leakage Threat Response Solution Pack* is designed to provide a set of investigation and utility playbooks to respond to data leakage.
+**Data Leakage Threat Response Solution Pack** is designed to provide a set of investigation and utility playbooks to respond to data leakage.
 
 Configure Cloud Access Security Broker(CASB) connector, such as Symantec CloudSOC, to capture events of policy violation like **External File Sharing**. It creates an alert of type **Data Leakage** and triggers a response workflow.
 
